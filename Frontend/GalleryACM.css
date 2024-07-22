@@ -1,0 +1,127 @@
+*{
+   margin: 0px;
+}
+.gallery_banner{
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,38,132,1) 29%, rgba(0,212,255,1) 100%);
+    height: 250px;
+    background-size: cover;
+    width: auto;
+}
+.gallery_banner_heading{
+    color: white;
+    padding: 80px 0px 0px 50px;
+    font-weight: bold;
+    font-family: 'Playwrite Chile';
+}
+.gallery_top_grp{
+  margin-bottom: 50px;
+}
+.gallery_top_section_heading{
+    margin: 30px 0px 0px 50px;
+    font-size: 35px;
+    font-family: 'Playwrite Chile';
+    font-weight: bold;
+}
+
+.gallery_top_section{
+    display: flex;
+    flex: left;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 0px;
+    border: transparent;
+}
+.gallery_top_section_img{
+    width: 380px;
+    border-radius: 10%;
+    margin: 35px;
+    transition-duration: 1.0s;
+}
+.gallery_top_section_img:hover{
+    box-shadow: 0 10px 10px black;
+    scale: 1.1;
+}
+.gallery_third_section{
+    background-image: url("https://res.cloudinary.com/dbd5zow1e/image/upload/v1720270597/samples/people/bicycle.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.scroll-container img {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .gallery_third_section_para{
+    font-size: 20px;
+    font-family: 'Playwrite Chile';
+    padding: 30px;
+    text-align: center;
+  }
+.gallery_second_section{
+    background-image: url("https://res.cloudinary.com/dbd5zow1e/image/upload/v1720270613/samples/balloons.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery_second_section_photo{
+    display: flex;
+    flex:left;
+    justify-content: center;
+}
+
+.gallery_second_section_img{ 
+    width: 450px;
+    padding: 30px;
+    border-radius: 20%;
+}
+
+.Album{
+    margin: 0px 40px 0px 40px;
+    padding: 10px;
+  }
+
+
+.row {
+    display: flex;
+    flex-wrap: left;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
